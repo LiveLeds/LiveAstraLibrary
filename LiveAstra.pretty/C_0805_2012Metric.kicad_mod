@@ -192,7 +192,7 @@
 		(roundrect_rratio 0.25)
 		(uuid "1e36b295-7e96-456f-a51a-a71b62e7b4c1")
 	)
-	(model "${KIPRJMOD}/LiveAstra/LiveAstra.3dshapes/C_0805_2012Metric.step"
+	(model "${KIPRJMOD}/LiveAstraLibrary/LiveAstra.3dshapes/C_0805_2012Metric.step"
 		(offset
 			(xyz 0 0 0)
 		)

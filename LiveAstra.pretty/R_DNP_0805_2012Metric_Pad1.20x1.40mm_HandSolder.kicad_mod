@@ -132,7 +132,7 @@
 		(end 1.8 0.9)
 		(stroke
 			(width 0.05)
-			(type dot)
+			(type dash_dot)
 		)
 		(layer "F.Fab")
 		(uuid "32c402dc-0d80-4362-94b4-4f75c9525ef8")
@@ -182,7 +182,7 @@
 		(end -1.8 0.9)
 		(stroke
 			(width 0.05)
-			(type dot)
+			(type dash_dot)
 		)
 		(layer "F.Fab")
 		(uuid "e2bae0e5-1423-4f85-9a3f-895e53a75727")
@@ -212,7 +212,7 @@
 		(roundrect_rratio 0.208333)
 		(uuid "1bdfed4a-fb38-4162-b692-6c86bd617303")
 	)
-	(model "${KIPRJMOD}/LiveAstra/LiveAstra.3dshapes/R_0805_2012Metric.step"
+	(model "${KIPRJMOD}/LiveAstraLibrary/LiveAstra.3dshapes/R_0805_2012Metric.step"
 		(offset
 			(xyz 0 0 0)
 		)

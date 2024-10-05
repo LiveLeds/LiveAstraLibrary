@@ -216,7 +216,7 @@
 		(roundrect_rratio 0.25)
 		(uuid "ea033332-cee1-451b-9cef-7da1108e6a93")
 	)
-	(model "/Users/BB88KU/Sketchbook/LiveLeds/PCB/AstraControl/AstraControlPCB/LiveAstra/LiveAstra.3dshapes/SOT-23-3_L2.9-W1.3-P1.90-LS2.4.wrl"
+	(model "${KIPRJMOD}/LiveAstraLibrary/LiveAstra.3dshapes/SOT-23-3_L2.9-W1.3-P1.90-LS2.4.wrl"
 		(offset
 			(xyz 0 0 0.75)
 		)

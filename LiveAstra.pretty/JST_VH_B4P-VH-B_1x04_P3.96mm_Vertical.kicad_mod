@@ -333,7 +333,7 @@
 		(remove_unused_layers no)
 		(uuid "00bd7a44-e8b1-4877-afa5-4f8e83d758cc")
 	)
-	(model "${KIPRJMOD}/LiveAstra/LiveAstra.3dshapes/B4P-VH-LF--SN---3DModel-STEP-56544.STEP"
+	(model "${KIPRJMOD}/LiveAstraLibrary/LiveAstra.3dshapes/B4P-VH-LF--SN---3DModel-STEP-56544.STEP"
 		(offset
 			(xyz 0.01 0 0)
 		)

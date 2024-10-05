@@ -356,7 +356,7 @@
 		(clearance 0.05)
 		(uuid "fd1dda5e-c692-4049-8557-9ce198a10022")
 	)
-	(model "${KIPRJMOD}/LiveAstra/LiveAstra.3dshapes/VSSOP-8_L3.0-W3.0-H1.1-LS4.9-P0.65.step"
+	(model "${KIPRJMOD}/LiveAstraLibrary/LiveAstra.3dshapes/VSSOP-8_L3.0-W3.0-H1.1-LS4.9-P0.65.step"
 		(offset
 			(xyz 0 0 0.15)
 		)

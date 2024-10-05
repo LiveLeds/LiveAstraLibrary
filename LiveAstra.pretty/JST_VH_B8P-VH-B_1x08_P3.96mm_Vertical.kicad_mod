@@ -365,7 +365,7 @@
 		(remove_unused_layers no)
 		(uuid "6ab95d0b-f027-49d4-8839-0e0a3dfa6cf4")
 	)
-	(model "${KIPRJMOD}/LiveAstra/LiveAstra.3dshapes/B8P-VH.stp"
+	(model "${KIPRJMOD}/LiveAstraLibrary/LiveAstra.3dshapes/B8P-VH.stp"
 		(offset
 			(xyz -0.01 0 0)
 		)

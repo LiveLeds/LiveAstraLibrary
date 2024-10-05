@@ -1,35 +1,260 @@
-(module easyeda2kicad:SMB_L4.4-W3.6-LS5.4-BI (layer F.Cu) (tedit 5DC5F6A4)
+(footprint "SMB_L4.4-W3.6-LS5.4-BI"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4 0)
+		(layer "F.SilkS")
+		(uuid "0ca02834-bca5-40d9-9a44-812331dbb9be")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SMB_L4.4-W3.6-LS5.4-BI"
+		(at 0 4 0)
+		(layer "F.Fab")
+		(uuid "43f707fc-baf9-41c0-91ca-4486f6e3561c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0825e46c-135d-4324-8165-68c7c2f8c6a2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a89452d4-dbcb-4fc6-a178-1a4c3300d798")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "58f9c066-77cf-4d56-943f-dfb1513d25ff")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
 	(attr smd)
-	(fp_text reference REF** (at 0 -4.0) (layer F.SilkS)
-		(effects (font (size 1 1) (thickness 0.15)))
+	(fp_line
+		(start -1.33 0.01)
+		(end 1.37 0.01)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5bffb512-a0bb-4590-b6d8-f28ff4d75a18")
 	)
-	(fp_text value SMB_L4.4-W3.6-LS5.4-BI (at 0 4.0) (layer F.Fab)
-		(effects (font (size 1 1) (thickness 0.15)))
+	(fp_line
+		(start -1.33 1.89)
+		(end -1.33 -1.88)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e7459732-7c0e-45e7-a653-cea0030331fe")
 	)
-	(fp_text user %R (at 0 0) (layer F.Fab)
-		(effects (font (size 1 1) (thickness 0.15)))
+	(fp_line
+		(start -0.89 -1.01)
+		(end -0.89 1.02)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "933bcb7f-42ce-48fe-837f-a6d9e31271d1")
 	)
-	(fp_line (start 2.67 1.91) (end -2.60 1.89) (layer F.SilkS) (width 0.15))
-	(fp_line (start 2.67 -1.90) (end -2.59 -1.88) (layer F.SilkS) (width 0.15))
-	(fp_line (start -1.33 0.01) (end 1.37 0.01) (layer F.SilkS) (width 0.25))
-	(fp_line (start 0.89 1.02) (end 0.89 -1.01) (layer F.SilkS) (width 0.25))
-	(fp_line (start 0.89 -1.01) (end 0.89 -0.88) (layer F.SilkS) (width 0.25))
-	(fp_line (start 0.89 -0.88) (end -0.00 -0.00) (layer F.SilkS) (width 0.25))
-	(fp_line (start -0.00 -0.00) (end 0.89 0.89) (layer F.SilkS) (width 0.25))
-	(fp_line (start 0.89 0.89) (end 0.89 1.02) (layer F.SilkS) (width 0.25))
-	(fp_line (start -0.89 -1.01) (end -0.89 1.02) (layer F.SilkS) (width 0.25))
-	(fp_line (start -0.89 1.02) (end -0.89 0.89) (layer F.SilkS) (width 0.25))
-	(fp_line (start -0.89 0.89) (end -0.00 -0.00) (layer F.SilkS) (width 0.25))
-	(fp_line (start -0.00 -0.00) (end -0.89 -0.88) (layer F.SilkS) (width 0.25))
-	(fp_line (start -0.89 -0.88) (end -0.89 -1.01) (layer F.SilkS) (width 0.25))
-	(fp_line (start -1.33 1.89) (end -1.33 -1.88) (layer F.SilkS) (width 0.15))
-	(fp_line (start 1.37 1.89) (end 1.37 -1.88) (layer F.SilkS) (width 0.15))
-	(pad 1 smd rect (at -2.54 0.00 0.00) (size 2.05 2.24) (layers F.Cu F.Paste F.Mask))
-	(pad 2 smd rect (at 2.54 0.00 0.00) (size 2.05 2.24) (layers F.Cu F.Paste F.Mask))
-	(fp_circle (center -2.70 1.80) (end -2.67 1.80) (layer F.Fab) (width 0.06))
-	(model "/Users/BB88KU/Sketchbook/LiveLeds/PCB/AstraControl/AstraControlPCB/LiveAstra/LiveAstra.3dshapes/SMB_L4.4-W3.6-LS5.4-BI.wrl"
-		(offset (xyz 0.000 -0.000 -0.000))
-		(scale (xyz 1 1 1))
-		(rotate (xyz 0 0 0))
+	(fp_line
+		(start -0.89 -0.88)
+		(end -0.89 -1.01)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "52292ee0-6cc3-4d22-83bc-89e4c25ee0dd")
+	)
+	(fp_line
+		(start -0.89 0.89)
+		(end 0 0)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f32e70bf-eec3-45e4-add7-d69a76f1e72c")
+	)
+	(fp_line
+		(start -0.89 1.02)
+		(end -0.89 0.89)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2907e031-31ef-414f-897b-18e922a9c241")
+	)
+	(fp_line
+		(start 0 0)
+		(end -0.89 -0.88)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f02f7e5f-ef54-4d57-a5df-86b3dd8f51e0")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0.89 0.89)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2ee58243-e160-4e01-b7c6-46d354643867")
+	)
+	(fp_line
+		(start 0.89 -1.01)
+		(end 0.89 -0.88)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0559d3d9-08ce-4ab2-b354-c07423b478e8")
+	)
+	(fp_line
+		(start 0.89 -0.88)
+		(end 0 0)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "58ead6d6-e16d-497b-b90d-7940435d208b")
+	)
+	(fp_line
+		(start 0.89 0.89)
+		(end 0.89 1.02)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a7be6e13-815f-4798-94ee-ad3c995dfbb6")
+	)
+	(fp_line
+		(start 0.89 1.02)
+		(end 0.89 -1.01)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "67786c8c-19d0-4bd1-96c2-523c59ab75e2")
+	)
+	(fp_line
+		(start 1.37 1.89)
+		(end 1.37 -1.88)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9a831318-3475-4e20-8eda-40be26ffca5e")
+	)
+	(fp_line
+		(start 2.67 -1.9)
+		(end -2.59 -1.88)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7245863b-05fd-4bc3-818e-51b87734f8a3")
+	)
+	(fp_line
+		(start 2.67 1.91)
+		(end -2.6 1.89)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b52d6ac6-ca32-4b10-8708-d48a2a738c56")
+	)
+	(fp_circle
+		(center -2.7 1.8)
+		(end -2.67 1.8)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "0cad55ed-24cf-46a1-8026-848304d2baa6")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "3dcfc01e-a39e-4eb1-b030-d5177f39d135")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.54 0)
+		(size 2.05 2.24)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "83d8b44e-ecdf-4c38-af8c-cd4cbe493926")
+	)
+	(pad "2" smd rect
+		(at 2.54 0)
+		(size 2.05 2.24)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "236edfd0-c535-4255-bc5c-cb6d4cc0aa78")
+	)
+	(model "${KIPRJMOD}/LiveAstraLibrary/LiveAstra.3dshapes/SMB_L4.4-W3.6-LS5.4-BI.step"
+		(offset
+			(xyz 0 -0 1.2)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
 	)
 )

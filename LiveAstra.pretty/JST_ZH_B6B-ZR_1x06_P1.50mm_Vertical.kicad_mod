@@ -616,7 +616,7 @@
 		(remove_unused_layers no)
 		(uuid "602b6aff-7da2-421d-a2de-4d632859bda9")
 	)
-	(model "${KIPRJMOD}/LiveAstra/LiveAstra.3dshapes/B6B-ZR.step"
+	(model "${KIPRJMOD}/LiveAstraLibrary/LiveAstra.3dshapes/B6B-ZR.step"
 		(offset
 			(xyz -3.75 0 0)
 		)

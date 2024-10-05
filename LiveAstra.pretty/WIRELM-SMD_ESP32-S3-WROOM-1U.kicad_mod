@@ -696,7 +696,7 @@
 		(roundrect_rratio 0.25)
 		(uuid "20962025-942c-44da-b770-3cf805124269")
 	)
-	(model "${KIPRJMOD}/LiveAstra/LiveAstra.3dshapes/WIRELM-SMD_ESP32-S3-WROOM-1U.step"
+	(model "${KIPRJMOD}/LiveAstraLibrary/LiveAstra.3dshapes/WIRELM-SMD_ESP32-S3-WROOM-1U.step"
 		(offset
 			(xyz 0 0.5 -0)
 		)
