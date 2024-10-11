@@ -2374,11 +2374,12 @@
 			)
 		)
 		(property "MFN" "Samsung Electro-Mechanics"
-			(at 0 0 0)
+			(at 0 -24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(symbol "C_4u7_X5R_0603_0_1"
@@ -5938,7 +5939,7 @@
 				)
 			)
 		)
-		(property "Value" "2P JST VH"
+		(property "Value" "JST VH 2 PIN"
 			(at 0 11.43 0)
 			(effects
 				(font
@@ -5947,7 +5948,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LiveAstra:CONN-TH_B2P-VH-R"
+		(property "Footprint" "LiveAstra:JST_VH_B2P-VH-B_1x02_P3.96mm_Vertical"
 			(at 0 -19.05 0)
 			(effects
 				(font
@@ -6239,7 +6240,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "CN"
-			(at 0 26.67 0)
+			(at 0 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6247,13 +6248,13 @@
 				)
 			)
 		)
-		(property "Value" "JST_VH_8PIN_10A_250V"
-			(at 0 -27.94 0)
+		(property "Value" "JST VH 8 PIN"
+			(at 0 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(bold yes)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "LiveAstra:JST_VH_B8P-VH-B_1x08_P3.96mm_Vertical"
@@ -6853,246 +6854,6 @@
 					)
 				)
 				(number "6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-	)
-	(symbol "LED2001PHR"
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "U"
-			(at 0 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" ""
-			(at -5.08 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "HSOP-8_L5.0-W4.0-P1.27-LS6.2-BL-EP"
-			(at 0 -44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/led2001.pdf"
-			(at 2.54 -39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "LED2001PHR"
-			(at 0 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C2678918"
-			(at 0 -49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "LED2001PHR_1_1"
-			(rectangle
-				(start -20.32 20.32)
-				(end 20.32 -20.32)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(text "LED DRIVER"
-				(at 0 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(bold yes)
-					)
-				)
-			)
-			(pin power_in line
-				(at -22.86 -10.16 0)
-				(length 2.54)
-				(name "VINA"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -22.86 0 0)
-				(length 2.54)
-				(name "DIM"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 22.86 -10.16 180)
-				(length 2.54)
-				(name "FB"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -15.24 -22.86 90)
-				(length 2.54)
-				(name "AGND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 15.24 -22.86 90)
-				(length 2.54)
-				(name "NC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -22.86 10.16 0)
-				(length 2.54)
-				(name "VINSW"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_out line
-				(at 22.86 10.16 180)
-				(length 2.54)
-				(name "SW"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -5.08 -22.86 90)
-				(length 2.54)
-				(name "PGND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 5.08 -22.86 90)
-				(length 2.54)
-				(name "EP"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "9"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -8209,9 +7970,9 @@
 		)
 		(symbol "L_22uH_1A_ SWPA4030S220MT_0_1"
 			(arc
-				(start -4.29 -0.02)
-				(mid -2.52 -0.79)
-				(end -2.27 -0.02)
+				(start -2.54 0)
+				(mid -3.81 1.27)
+				(end -5.08 0)
 				(stroke
 					(width 0)
 					(type default)
@@ -8221,9 +7982,9 @@
 				)
 			)
 			(arc
-				(start -2.13 -0.02)
-				(mid -0.36 -0.79)
-				(end -0.11 -0.02)
+				(start 0 0)
+				(mid -1.27 1.27)
+				(end -2.54 0)
 				(stroke
 					(width 0)
 					(type default)
@@ -8233,9 +7994,9 @@
 				)
 			)
 			(arc
-				(start 0.02 -0.02)
-				(mid 1.79 -0.79)
-				(end 2.04 -0.02)
+				(start 2.54 0)
+				(mid 1.27 1.27)
+				(end 0 0)
 				(stroke
 					(width 0)
 					(type default)
@@ -8245,9 +8006,9 @@
 				)
 			)
 			(arc
-				(start 2.21 -0.02)
-				(mid 3.3 -1.12)
-				(end 4.23 -0.02)
+				(start 5.08 0)
+				(mid 3.81 1.27)
+				(end 2.54 0)
 				(stroke
 					(width 0)
 					(type default)
@@ -8259,8 +8020,8 @@
 		)
 		(symbol "L_22uH_1A_ SWPA4030S220MT_1_1"
 			(pin passive line
-				(at -5.08 0 0)
-				(length 0.762)
+				(at -7.62 0 0)
+				(length 2.54)
 				(name "1"
 					(effects
 						(font
@@ -8277,8 +8038,8 @@
 				)
 			)
 			(pin passive line
-				(at 5.08 0 180)
-				(length 0.762)
+				(at 7.62 0 180)
+				(length 2.54)
 				(name "2"
 					(effects
 						(font
@@ -8320,7 +8081,7 @@
 			)
 		)
 		(property "Footprint" "LiveAstra:L_MDA4020_4.1x4.5mm"
-			(at 0 -8.89 0)
+			(at 1.27 -7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8329,7 +8090,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/product-detail/Inductors-SMD_KOHERelec-MDA4020-2R2M_C2847469.html"
-			(at 1.27 -16.51 0)
+			(at 2.54 -15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8338,7 +8099,7 @@
 			)
 		)
 		(property "Description" "4A 2.2uH 20% 4A 41mΩ SMD,4.1x4.5mm Inductors (SMD) ROHS"
-			(at 0 -5.08 0)
+			(at 1.27 -3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8347,7 +8108,7 @@
 			)
 		)
 		(property "LCSC Part" "C2847469"
-			(at 0 -12.7 0)
+			(at 1.27 -11.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8365,7 +8126,7 @@
 			)
 		)
 		(property "MPN" "MDA4020-2R2M"
-			(at -1.27 -20.32 0)
+			(at 0 -19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8374,7 +8135,7 @@
 			)
 		)
 		(property "MFN" "KOHERelec"
-			(at 0 -24.13 0)
+			(at 1.27 -22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8384,9 +8145,9 @@
 		)
 		(symbol "L_2u2H_4A_MDA4020-2R2M_0_1"
 			(arc
-				(start -2.03 0.01)
-				(mid -3.055 1.013)
-				(end -4.06 -0.01)
+				(start -2.54 0)
+				(mid -3.81 1.27)
+				(end -5.08 0)
 				(stroke
 					(width 0)
 					(type default)
@@ -8396,9 +8157,9 @@
 				)
 			)
 			(arc
-				(start 0 0.01)
-				(mid -1.025 1.013)
-				(end -2.03 -0.01)
+				(start 0 0)
+				(mid -1.27 1.27)
+				(end -2.54 0)
 				(stroke
 					(width 0)
 					(type default)
@@ -8408,9 +8169,9 @@
 				)
 			)
 			(arc
-				(start 2.03 0.01)
-				(mid 1.005 1.013)
-				(end 0 -0.01)
+				(start 2.54 0)
+				(mid 1.27 1.27)
+				(end 0 0)
 				(stroke
 					(width 0)
 					(type default)
@@ -8420,9 +8181,9 @@
 				)
 			)
 			(arc
-				(start 4.06 0.01)
-				(mid 3.035 1.013)
-				(end 2.03 -0.01)
+				(start 5.08 0)
+				(mid 3.81 1.27)
+				(end 2.54 0)
 				(stroke
 					(width 0)
 					(type default)
@@ -8434,8 +8195,8 @@
 		)
 		(symbol "L_2u2H_4A_MDA4020-2R2M_1_1"
 			(pin passive line
-				(at -5.08 0 0)
-				(length 1.016)
+				(at -7.62 0 0)
+				(length 2.54)
 				(name "1"
 					(effects
 						(font
@@ -8452,8 +8213,183 @@
 				)
 			)
 			(pin passive line
-				(at 5.08 0 180)
-				(length 1.016)
+				(at 7.62 0 180)
+				(length 2.54)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "L_4u7_5A_SWPA6045S4R7MT"
+		(pin_numbers hide)
+		(pin_names hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "L"
+			(at 0 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4u7H"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" "LiveAstra:L_Sunlord_SWPA6045S"
+			(at 0 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Power-Inductors_4-7uH-20_C78804.html"
+			(at 0 -15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3.3A 4.7uH ±20% 5.5A SMD,6x6mm Power Inductors ROHS"
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C78804"
+			(at 0 -19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SWPA6045S4R7MT"
+			(at 0 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" "Sunlord"
+			(at 0 -22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Extra Values" "5.5A 20% 3.3A 26mOhm 6x6"
+			(at 0 2.54 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+					(bold yes)
+				)
+			)
+		)
+		(symbol "L_4u7_5A_SWPA6045S4R7MT_0_1"
+			(arc
+				(start -2.54 0)
+				(mid -3.81 1.27)
+				(end -5.08 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 0)
+				(mid -1.27 1.27)
+				(end -2.54 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 2.54 0)
+				(mid 1.27 1.27)
+				(end 0 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 5.08 0)
+				(mid 3.81 1.27)
+				(end 2.54 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "L_4u7_5A_SWPA6045S4R7MT_1_1"
+			(pin passive line
+				(at -7.62 0 0)
+				(length 2.54)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 0 180)
+				(length 2.54)
 				(name "2"
 					(effects
 						(font
@@ -9776,7 +9712,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LiveAstra:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
+		(property "Footprint" "LiveAstra:R_1210_3225Metric"
 			(at 0 -12.7 0)
 			(effects
 				(font
@@ -10189,24 +10125,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LiveAstra:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
-			(at 0 -12.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-1210W2F400MT5E_C2765497.html"
-			(at 1.27 -8.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "500mW Thick Film Resistors 200V ±800ppm/℃ ±1% 40mΩ 1210 Chip Resistor - Surface Mount ROHS"
+		(property "Footprint" "LiveAstra:R_1210_3225Metric"
 			(at 0 -5.08 0)
 			(effects
 				(font
@@ -10215,7 +10134,43 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C2765497"
+		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_0-04R-0R04-1_C165440.html"
+			(at 0 -8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" " 500mW Thick Film Resistors 200V ±1% 40mΩ 1210 Chip Resistor - Surface Mount ROHS"
+			(at 0 -24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C165440"
+			(at 0 -12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CR1210FR040P05Z"
+			(at 0 -20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" "Ever Ohms Tech"
 			(at 0 -16.51 0)
 			(effects
 				(font
@@ -10224,7 +10179,7 @@
 				(hide yes)
 			)
 		)
-		(property "Extra Values" "200V 1% 1210 500mW "
+		(property "Extra Values" "1% 500mW 200V 1210"
 			(at 0 2.54 0)
 			(effects
 				(font
@@ -10233,26 +10188,10 @@
 				)
 			)
 		)
-		(property "MPN" "1210W2F400MT5E"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFN" "UNI-ROYAL(Uniroyal Elec)"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(symbol "R_40mOhm_1210_500mW_0_1"
 			(rectangle
-				(start -2.54 1.27)
-				(end 2.54 -1.27)
+				(start -2.54 1.02)
+				(end 2.54 -1.02)
 				(stroke
 					(width 0)
 					(type default)
@@ -10401,6 +10340,144 @@
 			)
 		)
 		(symbol "R_45k3Ohm_0402_62mW_1_1"
+			(pin passive line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 0 180)
+				(length 2.54)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "R_47mOhm_1210_500mW"
+		(pin_numbers hide)
+		(pin_names hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "R"
+			(at 0 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "47m"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" "LiveAstra:R_1210_3225Metric"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Ultra-Low-Resistors-SMD_0-047R-R047-1_C127695.html"
+			(at 0 -8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "500mW Thick Film Resistors 200V ±1% 47mΩ 1210 Chip Resistor - Surface Mount ROHS"
+			(at -1.27 -24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C127695"
+			(at 0 -12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1210W2F470MT5E"
+			(at 0 -16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 -20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Extra Values" "1% 500mW 200V 1210"
+			(at 0 2.54 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+					(bold yes)
+				)
+			)
+		)
+		(symbol "R_47mOhm_1210_500mW_0_1"
+			(rectangle
+				(start -2.54 1.02)
+				(end 2.54 -1.02)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "R_47mOhm_1210_500mW_1_1"
 			(pin passive line
 				(at -5.08 0 0)
 				(length 2.54)
@@ -11695,6 +11772,266 @@
 					)
 				)
 				(number "S1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "U_LED2001PHR_LED_Driver"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED2001PHR"
+			(at 0 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" "LiveAstra:U_LED2001PHR_HSOP8"
+			(at 0 -44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/product-detail/span-style-background-color-ff0-LED-span-Drivers_STMicroelectronics-LED2001PHR_C2678918.html"
+			(at 2.54 -39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "850kHz PWM Step-down 1 DC-DCVoltage Stabilizer 4A 3V~18V SOIC-8 LED Drivers ROHS"
+			(at 0 -54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2678918"
+			(at 0 -49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LED2001PHR"
+			(at 0 -63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" "STMicroelectronics"
+			(at 0 -58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Extra Values" "850kHz 4A Step Down LED Driver"
+			(at 0 22.86 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+					(bold yes)
+				)
+			)
+		)
+		(symbol "U_LED2001PHR_LED_Driver_1_1"
+			(rectangle
+				(start -20.32 20.32)
+				(end 20.32 -20.32)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin power_in line
+				(at -22.86 -10.16 0)
+				(length 2.54)
+				(name "VINA"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -22.86 0 0)
+				(length 2.54)
+				(name "DIM"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 22.86 -10.16 180)
+				(length 2.54)
+				(name "FB"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -15.24 -22.86 90)
+				(length 2.54)
+				(name "AGND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15.24 -22.86 90)
+				(length 2.54)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -22.86 10.16 0)
+				(length 2.54)
+				(name "VINSW"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 22.86 10.16 180)
+				(length 2.54)
+				(name "SW"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -5.08 -22.86 90)
+				(length 2.54)
+				(name "PGND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 -22.86 90)
+				(length 2.54)
+				(name "EP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
 					(effects
 						(font
 							(size 1.27 1.27)
