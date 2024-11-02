@@ -319,7 +319,7 @@
 	)
 	(model "${KIPRJMOD}/LiveAstraLibrary/LiveAstra.3dshapes/CONN-TH_B2P-VH-BK.step"
 		(offset
-			(xyz 0 -1.54 0)
+			(xyz 0 -1.15 0)
 		)
 		(scale
 			(xyz 1 1 1)
