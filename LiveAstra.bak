@@ -548,6 +548,137 @@
 			)
 		)
 	)
+	(symbol "CN_FASTON_250__41290_U"
+		(pin_numbers hide)
+		(pin_names hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "CN"
+			(at 0 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "250 FASTON"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at -1.27 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.te.com/en/product-41290.html"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ".250 SERIES FASTON TAB U SHAPE"
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "41290"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" "TE Connectivity"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Extra Values" "U Shape"
+			(at 0 2.54 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+					(bold yes)
+				)
+			)
+		)
+		(symbol "CN_FASTON_250__41290_U_1_1"
+			(rectangle
+				(start -1.524 0.254)
+				(end 0 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start -1.524 1.27)
+				(end -1.27 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.524 1.27)
+				(end 0 1.016)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(pin passive line
+				(at 2.54 0 180)
+				(length 2.54)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
 	(symbol "C_100nF_X7R_0402"
 		(pin_numbers hide)
 		(pin_names hide)
@@ -7416,8 +7547,8 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "U"
-			(at 0 24.13 0)
+		(property "Reference" "D"
+			(at 0 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7425,7 +7556,7 @@
 			)
 		)
 		(property "Value" "LERTDCYS2WN"
-			(at 0 20.32 0)
+			(at 0 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7433,7 +7564,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LiveAstra:LED-ARRAY-SMD_8P-L5.8-W4.7-TL"
+		(property "Footprint" "LiveAstra:LED_LERTDCYS2WN"
 			(at 0 -46.99 0)
 			(effects
 				(font
@@ -7451,7 +7582,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Compact lightsource in multi chip SMT technology with glass window on top."
+		(property "Description" "1A Red,Blue,Yellow,Emerald SMD,5.8x4.7mm LED Indication - Discrete ROHS"
 			(at 0 -43.18 0)
 			(effects
 				(font
@@ -7469,13 +7600,31 @@
 				(hide yes)
 			)
 		)
-		(property "Extra Value" "RGBA"
-			(at 0 -31.75 0)
+		(property "MPN" "LERTDCYS2WN-KBLA-1+MANA-P+AXAZ-3+LBMB-YS"
+			(at 0 -50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "MFN" "OSRAM Opto Semicon"
+			(at 0 -54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Extra Value" "40W RGBCY LED"
+			(at 0 20.32 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+					(bold yes)
+				)
 			)
 		)
 		(symbol "LED_RGBA_3A_LERTDCYS2WN_0_1"
