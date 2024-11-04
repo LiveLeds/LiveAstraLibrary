@@ -571,7 +571,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LiveAstra:CN_FASTON_250__41290_U"
 			(at -1.27 0 0)
 			(effects
 				(font
@@ -7335,6 +7335,88 @@
 					)
 				)
 				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "J_1_SolderPad"
+		(pin_numbers hide)
+		(pin_names hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "J"
+			(at 0 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" "LiveAstra:SolderWirePad_1x01_SMD_5x10mm"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.te.com/en/product-41290.html"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1 Connection Solder Pad"
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "J_1_SolderPad_1_1"
+			(rectangle
+				(start -0.254 -0.762)
+				(end 0 0.762)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(pin passive line
+				(at 2.54 0 180)
+				(length 2.54)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
