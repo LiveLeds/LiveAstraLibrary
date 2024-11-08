@@ -448,7 +448,7 @@
 		(thermal_bridge_angle 45)
 		(uuid "5f57eaf6-73d7-4174-a1c6-aa07be1b935b")
 	)
-	(model "/Users/BB88KU/Documents/KiCad/easyeda2kicad/easyeda2kicad.3dshapes/LED_LERTDCY_S2WN.step"
+	(model "${KIPRJMOD}/LiveAstraLibrary/LiveAstra.3dshapes/LED_LERTDCY_S2WN.step"
 		(offset
 			(xyz 0 0 1.25)
 		)
