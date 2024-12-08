@@ -144,7 +144,7 @@
 	)
 	(fp_poly
 		(pts
-			(xy -2.625 -1.25) (xy -2.125 -0.75) (xy -2.625 -0.25)
+			(xy -2.625 -1.75) (xy -2.125 -1.25) (xy -2.625 -0.75)
 		)
 		(stroke
 			(width 0.16)
@@ -202,7 +202,7 @@
 			(type default)
 		)
 		(fill none)
-		(layer "B.Fab")
+		(layer "F.Fab")
 		(uuid "fa7ca538-6a87-4aa0-8c9c-594c71b5a9ca")
 	)
 	(fp_text user "${REFERENCE}"
