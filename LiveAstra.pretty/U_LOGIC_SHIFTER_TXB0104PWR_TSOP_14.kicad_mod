@@ -1,4 +1,4 @@
-(footprint "LOGIC_SHIFTER_TXB0104PWR_TSOP_14"
+(footprint "U_LOGIC_SHIFTER_TXB0104PWR_TSOP_14"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "LOGIC_SHIFTER_TXB0104PWR_TSOP_14"
+	(property "Value" "U_LOGIC_SHIFTER_TXB0104PWR_TSOP_14"
 		(at 0 11.25 0)
 		(unlocked yes)
 		(layer "F.Fab")
