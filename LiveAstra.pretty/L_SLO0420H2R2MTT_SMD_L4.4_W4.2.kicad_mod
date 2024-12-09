@@ -1,0 +1,241 @@
+(footprint "L_SLO0420H2R2MTT_SMD_L4.4_W4.2"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4 0)
+		(layer "F.SilkS")
+		(uuid "9a4bad4a-025a-4810-b860-30ac22db86eb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "L_SLO0420H2R2MTT_SMD_L4.4_W4.2"
+		(at 0 4 0)
+		(layer "F.Fab")
+		(uuid "eb1861d6-1546-41f3-ba72-d67b074ba270")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7c7cf695-aaf6-47ca-a5ab-3ef889df21e9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b8861a9e-f59e-41f1-9c59-2375ea03eb97")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "76828c58-f083-4b35-9ebe-2318f4a70518")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.25 -2.25)
+		(end 2.25 -2.25)
+		(stroke
+			(width 0.16)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a8b6fdb6-f3c3-435d-85a2-2549c41d0dc3")
+	)
+	(fp_line
+		(start -2.25 -1.75)
+		(end -2.25 -2.25)
+		(stroke
+			(width 0.16)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "78312e97-c70e-4a72-9109-36c3ea741415")
+	)
+	(fp_line
+		(start -2.25 1.75)
+		(end -2.25 2.25)
+		(stroke
+			(width 0.16)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7b10981a-94e0-42b5-88c4-d9ed12b0d808")
+	)
+	(fp_line
+		(start -2.25 2.25)
+		(end 2.25 2.25)
+		(stroke
+			(width 0.16)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "34df4ded-7ff2-4f7b-8288-ef62fc45c0c4")
+	)
+	(fp_line
+		(start 2.25 -2.25)
+		(end 2.25 -1.75)
+		(stroke
+			(width 0.16)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4fa11624-3a9e-4fd3-b3bf-f1535881266e")
+	)
+	(fp_line
+		(start 2.25 2.25)
+		(end 2.25 1.75)
+		(stroke
+			(width 0.16)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ee0cae61-63dc-47a3-a80e-5e51ca4247ed")
+	)
+	(fp_line
+		(start -3 -2.5)
+		(end 3 -2.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "864487e7-f47f-40e8-86e2-1880b59ca555")
+	)
+	(fp_line
+		(start -3 2.5)
+		(end -3 -2.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "f6e0424c-26c0-4cde-8431-a377b8c76ad6")
+	)
+	(fp_line
+		(start 3 -2.5)
+		(end 3 2.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "a6525b52-1eda-494c-bee8-5a0658c91d7a")
+	)
+	(fp_line
+		(start 3 2.5)
+		(end -3 2.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "0430d81a-8ff9-4fda-9356-7a3a201600d0")
+	)
+	(fp_line
+		(start -2.25 -2.25)
+		(end 2.25 -2.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "0da5b531-7290-4ad3-948a-f00e9bf5a9f4")
+	)
+	(fp_line
+		(start -2.25 2.25)
+		(end -2.25 -2.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "31ef42ac-ed8d-4c49-98fa-f631451fe69d")
+	)
+	(fp_line
+		(start 2.25 -2.25)
+		(end 2.25 2.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "73c16763-f398-4582-a506-24206f3c5ed5")
+	)
+	(fp_line
+		(start 2.25 2.25)
+		(end -2.25 2.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "df30cf53-006a-4aa5-a0f7-ea4b00d55a8b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "0e238ea5-5446-4aff-b412-c5694b73e037")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 2.03 0)
+		(size 1.4 2.12)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.1785714286)
+		(uuid "fefa3982-5f68-4284-a7b9-5339d77b281e")
+	)
+	(pad "2" smd roundrect
+		(at -2.03 0)
+		(size 1.4 2.12)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.1785714286)
+		(uuid "f31bad7b-17c4-4cd3-be75-c1f7fdcde7a0")
+	)
+	(model "${KIPRJMOD}/LiveAstraLibrary/LiveAstra.3dshapes/IND-SMD_L4.2-W4.4-H2.0.step"
+		(offset
+			(xyz 0 -0 -0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

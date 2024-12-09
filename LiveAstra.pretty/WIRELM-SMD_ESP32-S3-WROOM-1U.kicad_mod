@@ -763,7 +763,7 @@
 	(pad "41" thru_hole circle
 		(at -2.9 -2.07)
 		(size 0.6 0.6)
-		(drill 0.2)
+		(drill 0.3)
 		(property pad_prop_heatsink)
 		(layers "*.Cu" "F.Mask")
 		(remove_unused_layers no)
@@ -772,7 +772,7 @@
 	(pad "41" thru_hole circle
 		(at -2.9 -0.67)
 		(size 0.6 0.6)
-		(drill 0.2)
+		(drill 0.3)
 		(property pad_prop_heatsink)
 		(layers "*.Cu" "F.Mask")
 		(remove_unused_layers no)
@@ -781,7 +781,7 @@
 	(pad "41" thru_hole circle
 		(at -2.2 -2.77)
 		(size 0.6 0.6)
-		(drill 0.2)
+		(drill 0.3)
 		(property pad_prop_heatsink)
 		(layers "*.Cu" "F.Mask")
 		(remove_unused_layers no)
@@ -790,7 +790,7 @@
 	(pad "41" thru_hole circle
 		(at -2.2 -1.37)
 		(size 0.6 0.6)
-		(drill 0.2)
+		(drill 0.3)
 		(property pad_prop_heatsink)
 		(layers "*.Cu" "F.Mask")
 		(remove_unused_layers no)
@@ -799,7 +799,7 @@
 	(pad "41" thru_hole circle
 		(at -2.2 0.03)
 		(size 0.6 0.6)
-		(drill 0.2)
+		(drill 0.3)
 		(property pad_prop_heatsink)
 		(layers "*.Cu" "F.Mask")
 		(remove_unused_layers no)
@@ -808,7 +808,7 @@
 	(pad "41" thru_hole circle
 		(at -1.5 -2.07)
 		(size 0.6 0.6)
-		(drill 0.2)
+		(drill 0.3)
 		(property pad_prop_heatsink)
 		(layers "*.Cu" "F.Mask")
 		(remove_unused_layers no)
@@ -824,7 +824,7 @@
 	(pad "41" thru_hole circle
 		(at -1.5 -0.67)
 		(size 0.6 0.6)
-		(drill 0.2)
+		(drill 0.3)
 		(property pad_prop_heatsink)
 		(layers "*.Cu" "F.Mask")
 		(remove_unused_layers no)
@@ -833,7 +833,7 @@
 	(pad "41" thru_hole circle
 		(at -0.8 -2.77)
 		(size 0.6 0.6)
-		(drill 0.2)
+		(drill 0.3)
 		(property pad_prop_heatsink)
 		(layers "*.Cu" "F.Mask")
 		(remove_unused_layers no)
@@ -842,7 +842,7 @@
 	(pad "41" thru_hole circle
 		(at -0.8 -1.37 90)
 		(size 0.6 0.6)
-		(drill 0.2)
+		(drill 0.3)
 		(property pad_prop_heatsink)
 		(layers "*.Cu" "F.Mask")
 		(remove_unused_layers no)
@@ -851,7 +851,7 @@
 	(pad "41" thru_hole circle
 		(at -0.8 0.03)
 		(size 0.6 0.6)
-		(drill 0.2)
+		(drill 0.3)
 		(property pad_prop_heatsink)
 		(layers "*.Cu" "F.Mask")
 		(remove_unused_layers no)
@@ -860,7 +860,7 @@
 	(pad "41" thru_hole circle
 		(at -0.1 -2.07)
 		(size 0.6 0.6)
-		(drill 0.2)
+		(drill 0.3)
 		(property pad_prop_heatsink)
 		(layers "*.Cu" "F.Mask")
 		(remove_unused_layers no)
@@ -869,7 +869,7 @@
 	(pad "41" thru_hole circle
 		(at -0.1 -0.67)
 		(size 0.6 0.6)
-		(drill 0.2)
+		(drill 0.3)
 		(property pad_prop_heatsink)
 		(layers "*.Cu" "F.Mask")
 		(remove_unused_layers no)
