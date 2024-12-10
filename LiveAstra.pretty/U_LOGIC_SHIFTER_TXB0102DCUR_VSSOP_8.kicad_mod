@@ -84,7 +84,7 @@
 	)
 	(fp_poly
 		(pts
-			(xy -1 -2) (xy -1.5 -1.5) (xy -2 -2)
+			(xy 1.25 2) (xy 1.75 1.5) (xy 2.25 2)
 		)
 		(stroke
 			(width 0.16)
@@ -135,8 +135,8 @@
 		(uuid "fc852eff-1c06-45fa-9d80-79f52e4d3b72")
 	)
 	(fp_circle
-		(center -0.75 -1)
-		(end -0.6 -1)
+		(center 0.9 0.95)
+		(end 1.05 0.95)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -285,7 +285,7 @@
 			(extension_offset 0) keep_text_aligned)
 	)
 	(pad "1" smd roundrect
-		(at -1.55 -0.75 270)
+		(at 1.55 0.75 90)
 		(size 0.3 0.85)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.1666666667)
@@ -294,7 +294,7 @@
 		(uuid "0dff188a-611c-46bb-b050-b123f73f4174")
 	)
 	(pad "2" smd roundrect
-		(at -1.55 -0.25 270)
+		(at 1.55 0.25 90)
 		(size 0.3 0.85)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.1666666667)
@@ -303,7 +303,7 @@
 		(uuid "afc4f77d-3b0a-4fda-8b9f-42898b9d11e7")
 	)
 	(pad "3" smd roundrect
-		(at -1.55 0.25 270)
+		(at 1.55 -0.25 90)
 		(size 0.3 0.85)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.1666666667)
@@ -312,7 +312,7 @@
 		(uuid "71ecc06c-39bc-40ff-8341-76f0ed61b47a")
 	)
 	(pad "4" smd roundrect
-		(at -1.55 0.75 270)
+		(at 1.55 -0.75 90)
 		(size 0.3 0.85)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.1666666667)
@@ -321,7 +321,7 @@
 		(uuid "57613389-d9c2-4e14-9b95-00cd1dcf19df")
 	)
 	(pad "5" smd roundrect
-		(at 1.55 0.75 270)
+		(at -1.55 -0.75 90)
 		(size 0.3 0.85)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.1666666667)
@@ -330,7 +330,7 @@
 		(uuid "2ad3af20-cca1-4319-ba09-64c2ed41f129")
 	)
 	(pad "6" smd roundrect
-		(at 1.55 0.25 270)
+		(at -1.55 -0.25 90)
 		(size 0.3 0.85)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.1666666667)
@@ -339,7 +339,7 @@
 		(uuid "f1aa67df-2c7b-4a62-b89a-40f0bfdfe3e0")
 	)
 	(pad "7" smd roundrect
-		(at 1.55 -0.25 270)
+		(at -1.55 0.25 90)
 		(size 0.3 0.85)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.1666666667)
@@ -348,7 +348,7 @@
 		(uuid "6b573395-3418-445d-b1de-1ea327cab6cd")
 	)
 	(pad "8" smd roundrect
-		(at 1.55 -0.75 270)
+		(at -1.55 0.75 90)
 		(size 0.3 0.85)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.1666666667)
@@ -356,15 +356,23 @@
 		(thermal_bridge_angle 45)
 		(uuid "9339d15d-15f9-43d1-81ec-ac4a685ba237")
 	)
+	(group ""
+		(uuid "31f6f108-4447-424b-a7c5-b7df56c96d0a")
+		(members "0dff188a-611c-46bb-b050-b123f73f4174" "2ad3af20-cca1-4319-ba09-64c2ed41f129"
+			"57613389-d9c2-4e14-9b95-00cd1dcf19df" "6b573395-3418-445d-b1de-1ea327cab6cd"
+			"71ecc06c-39bc-40ff-8341-76f0ed61b47a" "9339d15d-15f9-43d1-81ec-ac4a685ba237"
+			"afc4f77d-3b0a-4fda-8b9f-42898b9d11e7" "f1aa67df-2c7b-4a62-b89a-40f0bfdfe3e0"
+		)
+	)
 	(model "${KIPRJMOD}/LiveAstraLibrary/LiveAstra.3dshapes/VSSOP-8_L2.0-W2.3-H0.9-LS3.1-P0.50.step"
 		(offset
-			(xyz 0 -0 -0)
+			(xyz 0 -0 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz 0 0 180)
 		)
 	)
 )
