@@ -68,8 +68,8 @@
 	)
 	(attr through_hole)
 	(fp_line
-		(start -4.7 -2.95)
-		(end -4.7 -1.05)
+		(start -4.85 -0.75)
+		(end -4.85 0.95)
 		(stroke
 			(width 0.2)
 			(type default)
@@ -78,8 +78,8 @@
 		(uuid "87646942-a834-412e-95b2-2e5a84bc66cb")
 	)
 	(fp_line
-		(start 4.9 -2.95)
-		(end 4.9 -1.05)
+		(start 4.75 -0.75)
+		(end 4.75 0.95)
 		(stroke
 			(width 0.2)
 			(type default)
@@ -88,8 +88,8 @@
 		(uuid "68816b5a-ec13-4ecc-a720-7c95481105f4")
 	)
 	(fp_line
-		(start -5.5 -5.5)
-		(end -5.5 -1.5)
+		(start -5.5 -3.5)
+		(end -5.5 0.5)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -98,8 +98,8 @@
 		(uuid "ef178481-93de-4786-aa2d-fb43eed20dd7")
 	)
 	(fp_line
-		(start -5.5 -1.5)
-		(end 5.5 -1.5)
+		(start -5.5 0.5)
+		(end 5.5 0.5)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -108,8 +108,8 @@
 		(uuid "97ef0e76-7b83-465d-ab96-4d6a96b5a1c2")
 	)
 	(fp_line
-		(start 5.5 -5.5)
-		(end -5.5 -5.5)
+		(start 5.5 -3.5)
+		(end -5.5 -3.5)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -118,8 +118,8 @@
 		(uuid "b713790a-a551-4474-8948-c1f4a5b3440e")
 	)
 	(fp_line
-		(start 5.5 -1.5)
-		(end 5.5 -5.5)
+		(start 5.5 0.5)
+		(end 5.5 -3.5)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -128,8 +128,8 @@
 		(uuid "ee5791af-b00d-4e8b-b0eb-8de1df984bb8")
 	)
 	(fp_rect
-		(start -4.47 -4.95)
-		(end 4.47 2.95)
+		(start -4.47 -3)
+		(end 4.47 4.9)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -440,21 +440,21 @@
 			(extension_offset 0.5) keep_text_aligned)
 	)
 	(pad "" np_thru_hole circle
-		(at -2.892 -3.645)
+		(at -2.892 -1.525)
 		(size 0.6 0.6)
 		(drill 0.6)
 		(layers "F&B.Cu" "*.Mask")
 		(uuid "c8668cd8-2bde-4ee3-b476-1acceee96138")
 	)
 	(pad "" np_thru_hole circle
-		(at 2.888 -3.645)
+		(at 2.888 -1.525)
 		(size 0.6 0.6)
 		(drill 0.6)
 		(layers "F&B.Cu" "*.Mask")
 		(uuid "f14416b4-9479-450b-beea-b267adce24a4")
 	)
 	(pad "A1" smd roundrect
-		(at -3.202 -4.775)
+		(at -3.202 -2.655)
 		(size 0.6 1.14)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
@@ -462,7 +462,7 @@
 		(uuid "a6f75216-92ec-49ca-a767-19e847fa8d61")
 	)
 	(pad "A4" smd roundrect
-		(at -2.402 -4.775)
+		(at -2.402 -2.655)
 		(size 0.6 1.14)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
@@ -470,7 +470,7 @@
 		(uuid "033cc257-cebe-4195-ae89-49092a664171")
 	)
 	(pad "A5" smd roundrect
-		(at -1.252 -4.75)
+		(at -1.252 -2.63)
 		(size 0.3 1.19)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
@@ -478,7 +478,7 @@
 		(uuid "e3e4b4db-20da-464b-9467-dafc96b78421")
 	)
 	(pad "A6" smd roundrect
-		(at -0.252 -4.75)
+		(at -0.252 -2.63)
 		(size 0.3 1.19)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
@@ -486,7 +486,7 @@
 		(uuid "bc382618-8ec6-493b-a5f3-b3b4176b3d22")
 	)
 	(pad "A7" smd roundrect
-		(at 0.248 -4.75)
+		(at 0.248 -2.63)
 		(size 0.3 1.19)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
@@ -494,7 +494,7 @@
 		(uuid "7b6f8c26-84da-442a-ba4d-1a79e68c9056")
 	)
 	(pad "A8" smd roundrect
-		(at 1.248 -4.75)
+		(at 1.248 -2.63)
 		(size 0.3 1.19)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
@@ -502,7 +502,7 @@
 		(uuid "647bae30-2a2b-4bc4-8ec2-59e3ca01d413")
 	)
 	(pad "A9" smd roundrect
-		(at 2.398 -4.775)
+		(at 2.398 -2.655)
 		(size 0.6 1.14)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
@@ -510,7 +510,7 @@
 		(uuid "b823349c-9918-40fd-9976-d0c0ade2099c")
 	)
 	(pad "A12" smd roundrect
-		(at 3.198 -4.775)
+		(at 3.198 -2.655)
 		(size 0.6 1.14)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
@@ -518,7 +518,7 @@
 		(uuid "c704a907-6d6f-4785-b741-29daf770ca5f")
 	)
 	(pad "B1" smd roundrect
-		(at 3.198 -4.775)
+		(at 3.198 -2.655)
 		(size 0.6 1.14)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
@@ -526,7 +526,7 @@
 		(uuid "55c83326-28c8-40b2-91e8-2328d9528b05")
 	)
 	(pad "B4" smd roundrect
-		(at 2.398 -4.775)
+		(at 2.398 -2.655)
 		(size 0.6 1.14)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
@@ -534,7 +534,7 @@
 		(uuid "cc32a6b7-85b2-4bb8-8546-beb9f53a8ef3")
 	)
 	(pad "B5" smd roundrect
-		(at 1.748 -4.75)
+		(at 1.748 -2.63)
 		(size 0.3 1.19)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
@@ -542,7 +542,7 @@
 		(uuid "d0d036f4-9146-403e-8dec-a229ac8ab58a")
 	)
 	(pad "B6" smd roundrect
-		(at 0.748 -4.75)
+		(at 0.748 -2.63)
 		(size 0.3 1.19)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
@@ -550,7 +550,7 @@
 		(uuid "eeb55edf-a7d9-454c-ad75-680cc09c1b3c")
 	)
 	(pad "B7" smd roundrect
-		(at -0.752 -4.75)
+		(at -0.752 -2.63)
 		(size 0.3 1.19)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
@@ -558,7 +558,7 @@
 		(uuid "4e61e224-2aab-4ddc-9612-00828b444112")
 	)
 	(pad "B8" smd roundrect
-		(at -1.752 -4.75)
+		(at -1.752 -2.63)
 		(size 0.3 1.19)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
@@ -566,7 +566,7 @@
 		(uuid "fd9a6d4e-7afd-4581-bec5-4e8fb5e70517")
 	)
 	(pad "B9" smd roundrect
-		(at -2.402 -4.775)
+		(at -2.402 -2.655)
 		(size 0.6 1.14)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
@@ -574,7 +574,7 @@
 		(uuid "df0cf900-8222-4482-89a5-e2b2518f3e78")
 	)
 	(pad "B12" smd roundrect
-		(at -3.202 -4.775)
+		(at -3.202 -2.655)
 		(size 0.6 1.14)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
@@ -582,7 +582,7 @@
 		(uuid "24d8ab94-bfa4-4c5b-a815-86cbb21497aa")
 	)
 	(pad "S1" thru_hole oval
-		(at -4.325 -4.155)
+		(at -4.325 -2.035)
 		(size 0.9 2)
 		(drill oval 0.62 1.7)
 		(layers "*.Cu" "*.Mask")
@@ -591,7 +591,7 @@
 		(uuid "32c747a2-1ae2-46db-b99e-f8cad54e95da")
 	)
 	(pad "S1" thru_hole oval
-		(at -4.325 0.035)
+		(at -4.325 2.155)
 		(size 0.9 1.7)
 		(drill oval 0.62 1.4)
 		(layers "*.Cu" "*.Mask")
@@ -600,7 +600,7 @@
 		(uuid "93a41bb5-5d15-459b-b74d-3d337f7aaaa2")
 	)
 	(pad "S1" thru_hole oval
-		(at 4.325 -4.155)
+		(at 4.325 -2.035)
 		(size 0.9 2)
 		(drill oval 0.62 1.7)
 		(layers "*.Cu" "*.Mask")
@@ -609,7 +609,7 @@
 		(uuid "220a33fb-7c0d-413d-bf15-ed3cfd2dfe1b")
 	)
 	(pad "S1" thru_hole oval
-		(at 4.325 0.025)
+		(at 4.325 2.145)
 		(size 0.9 1.7)
 		(drill oval 0.62 1.4)
 		(layers "*.Cu" "*.Mask")
@@ -634,7 +634,7 @@
 	)
 	(model "${KIPRJMOD}/LiveAstraLibrary/LiveAstra.3dshapes/USB-C_SMD-TYPE-C-31-M-12.step"
 		(offset
-			(xyz 0 0 0)
+			(xyz 0 -2.13 0)
 		)
 		(scale
 			(xyz 1 1 1)
