@@ -64,7 +64,7 @@
 	(attr smd)
 	(fp_line
 		(start -1.5 -1.5)
-		(end -1.5 -1.1)
+		(end -1.5 -1.25)
 		(stroke
 			(width 0.16)
 			(type solid)
@@ -73,7 +73,7 @@
 		(uuid "a8cd66ba-5c67-4bd4-97b0-a70dd8a50430")
 	)
 	(fp_line
-		(start -1.5 1.1)
+		(start -1.5 1.25)
 		(end -1.5 1.5)
 		(stroke
 			(width 0.16)
@@ -84,7 +84,7 @@
 	)
 	(fp_line
 		(start -1.5 1.5)
-		(end -1.1 1.5)
+		(end -1.25 1.5)
 		(stroke
 			(width 0.16)
 			(type solid)
@@ -93,7 +93,7 @@
 		(uuid "9669362e-d4a7-41a3-9bed-7b751a1676d7")
 	)
 	(fp_line
-		(start -1.1 -1.5)
+		(start -1.25 -1.5)
 		(end -1.5 -1.5)
 		(stroke
 			(width 0.16)
@@ -103,7 +103,7 @@
 		(uuid "571ffd4c-455e-4a69-b9ec-55010ceb5e66")
 	)
 	(fp_line
-		(start 1.1 1.5)
+		(start 1.25 1.5)
 		(end 1.5 1.5)
 		(stroke
 			(width 0.16)
@@ -114,7 +114,7 @@
 	)
 	(fp_line
 		(start 1.5 -1.5)
-		(end 1.1 -1.5)
+		(end 1.25 -1.5)
 		(stroke
 			(width 0.16)
 			(type solid)
@@ -124,7 +124,7 @@
 	)
 	(fp_line
 		(start 1.5 -1.5)
-		(end 1.5 -1.1)
+		(end 1.5 -1.25)
 		(stroke
 			(width 0.16)
 			(type solid)
@@ -133,7 +133,7 @@
 		(uuid "60dc4bc1-9f29-4c8d-8155-7ecabe703aa9")
 	)
 	(fp_line
-		(start 1.5 1.1)
+		(start 1.5 1.25)
 		(end 1.5 1.5)
 		(stroke
 			(width 0.16)
@@ -144,7 +144,7 @@
 	)
 	(fp_poly
 		(pts
-			(xy -2.625 -1.55) (xy -2.125 -1.05) (xy -2.625 -0.55)
+			(xy -2.6 -1.2) (xy -2.2 -1) (xy -2.6 -0.8)
 		)
 		(stroke
 			(width 0.16)

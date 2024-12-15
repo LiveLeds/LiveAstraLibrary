@@ -145,6 +145,16 @@
 		(uuid "0ba13ea6-7b4e-4515-bb18-d7e618d91afd")
 	)
 	(fp_line
+		(start -4.5 -1.01)
+		(end -4.96 -1.01)
+		(stroke
+			(width 0.16)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d5a1548d-03e9-4acb-97e2-dddc5b37bc76")
+	)
+	(fp_line
 		(start -4.35 -1.61)
 		(end -4.35 -1.41)
 		(stroke
@@ -225,6 +235,16 @@
 		(uuid "53ae76fa-b0dc-4ff3-953f-af8ffca59361")
 	)
 	(fp_line
+		(start -2.75 -1)
+		(end -3 -1)
+		(stroke
+			(width 0.16)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d780ac6e-edeb-457d-8c31-cc6ae18bf0d4")
+	)
+	(fp_line
 		(start -1.6 1.51)
 		(end -1.4 1.51)
 		(stroke
@@ -263,6 +283,16 @@
 		)
 		(layer "F.SilkS")
 		(uuid "048067c7-82b1-4336-90b8-31342c5a1cbf")
+	)
+	(fp_line
+		(start -1.25 -1)
+		(end -1.75 -1)
+		(stroke
+			(width 0.16)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "81c8e558-f1ce-4851-9fba-e3baaad3a37c")
 	)
 	(fp_line
 		(start -0.1 1.51)
@@ -305,6 +335,16 @@
 		(uuid "1c4cbb7d-7604-4896-a55e-9a9b14b99bdd")
 	)
 	(fp_line
+		(start 0.25 -1)
+		(end -0.25 -1)
+		(stroke
+			(width 0.16)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "69d62cf1-b75f-4619-9bae-e536d3605d65")
+	)
+	(fp_line
 		(start 1.4 1.51)
 		(end 1.6 1.51)
 		(stroke
@@ -343,6 +383,16 @@
 		)
 		(layer "F.SilkS")
 		(uuid "c56948a3-bc72-422a-b5a6-e9c2b4466f51")
+	)
+	(fp_line
+		(start 1.75 -1)
+		(end 1.25 -1)
+		(stroke
+			(width 0.16)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dc1cfe75-6741-47ef-af9a-97c4464e4b43")
 	)
 	(fp_line
 		(start 2.9 1.51)
@@ -385,14 +435,24 @@
 		(uuid "e92c58ae-69d9-4239-9d47-237b88c8922b")
 	)
 	(fp_line
-		(start 4.96 -1.01)
-		(end -4.96 -1.01)
+		(start 3.25 -1)
+		(end 2.75 -1)
 		(stroke
 			(width 0.16)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "d5a1548d-03e9-4acb-97e2-dddc5b37bc76")
+		(uuid "e81515f7-df9f-4943-8d85-add0182d3583")
+	)
+	(fp_line
+		(start 4.96 -1.01)
+		(end 4.5 -1.01)
+		(stroke
+			(width 0.16)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d87c24d1-3a1f-479b-804e-31750f658d11")
 	)
 	(fp_line
 		(start 4.96 1.91)
