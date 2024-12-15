@@ -9895,7 +9895,7 @@
 				(hide yes)
 			)
 		)
-		(property "Extra Values" "8.2A 20% 8.4A 19mOhm 7.1x6.5"
+		(property "Extra Values" "8.2A 20% 8.4A 19mOhm"
 			(at 0 2.54 0)
 			(effects
 				(font
@@ -11215,7 +11215,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LiveAstra:R0805"
+		(property "Footprint" "LiveAstra:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 0 -3.81 0)
 			(effects
 				(font
