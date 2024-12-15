@@ -9895,7 +9895,7 @@
 				(hide yes)
 			)
 		)
-		(property "Extra Values" "8.2A 20% 8.4A 7.1x6.5"
+		(property "Extra Values" "8.2A 20% 8.4A 19mOhm"
 			(at 0 2.54 0)
 			(effects
 				(font

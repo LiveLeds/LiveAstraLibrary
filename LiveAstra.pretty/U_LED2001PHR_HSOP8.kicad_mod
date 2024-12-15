@@ -6,7 +6,7 @@
 	(descr "HSOP, 8 Pin (https://www.st.com/resource/en/datasheet/l7980.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 	(tags "HSOP SO")
 	(property "Reference" "REF**"
-		(at 0 -3.4 0)
+		(at 0 -4.5 0)
 		(layer "F.SilkS")
 		(uuid "06d4cb2c-b407-4169-a103-dd4cc4013968")
 		(effects
@@ -17,7 +17,7 @@
 		)
 	)
 	(property "Value" "U_LED2001PHR_HSOP8"
-		(at 0 3.4 0)
+		(at 0 5 0)
 		(layer "F.Fab")
 		(uuid "23e18a21-d981-408e-9d8c-76e13f134d1a")
 		(effects
@@ -67,6 +67,26 @@
 		)
 	)
 	(attr smd)
+	(fp_line
+		(start -2 -2.7)
+		(end 2 -2.7)
+		(stroke
+			(width 0.16)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "3c0716e6-e908-45cb-b34b-3609986bcb4c")
+	)
+	(fp_line
+		(start -2 2.7)
+		(end 2 2.7)
+		(stroke
+			(width 0.16)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "596dcf37-59a5-41a0-95c9-28b3ffa38672")
+	)
 	(fp_poly
 		(pts
 			(xy -1.5 -3.5) (xy -2 -3) (xy -2.5 -3.5)
@@ -120,28 +140,8 @@
 		(uuid "2b3ee57d-a751-4cbe-a59f-82e41b8b6474")
 	)
 	(fp_line
-		(start -1.95 -1.475)
-		(end -0.975 -2.45)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "6188ea93-34d1-465d-86b5-90d26da211d7")
-	)
-	(fp_line
-		(start -1.95 2.45)
-		(end -1.95 -1.475)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "15ff516d-5144-4c27-a62c-697983c82552")
-	)
-	(fp_line
-		(start -0.975 -2.45)
-		(end 1.95 -2.45)
+		(start -1.95 -2.5)
+		(end 1.95 -2.5)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -150,8 +150,18 @@
 		(uuid "5ec7a326-827d-4351-aa35-ac207dbaf868")
 	)
 	(fp_line
-		(start 1.95 -2.45)
-		(end 1.95 2.45)
+		(start -1.95 2.5)
+		(end -1.95 -2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "15ff516d-5144-4c27-a62c-697983c82552")
+	)
+	(fp_line
+		(start 1.95 -2.5)
+		(end 1.95 2.5)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -160,8 +170,8 @@
 		(uuid "c0439fdc-be59-46a3-9503-6897a89b860e")
 	)
 	(fp_line
-		(start 1.95 2.45)
-		(end -1.95 2.45)
+		(start 1.95 2.5)
+		(end -1.95 2.5)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -170,8 +180,8 @@
 		(uuid "a0154282-6ef4-4cf4-9496-43750f849db1")
 	)
 	(fp_circle
-		(center -1 -1.9)
-		(end -0.75 -1.9)
+		(center -1.5 -2)
+		(end -1.25 -2)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -179,6 +189,32 @@
 		(fill none)
 		(layer "F.Fab")
 		(uuid "eecfa487-ac0b-4f3f-9d34-08e79c1e55c7")
+	)
+	(fp_text user "NC"
+		(at 2.7 1.9 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "0f822551-62e0-47fb-8e0e-3dc2937e9947")
+		(effects
+			(font
+				(size 0.2 0.2)
+				(thickness 0.05)
+				(bold yes)
+			)
+		)
+	)
+	(fp_text user "SW"
+		(at 2.7 -0.6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "2868cc99-fd02-4223-92b9-a3d6293de39a")
+		(effects
+			(font
+				(size 0.2 0.2)
+				(thickness 0.05)
+				(bold yes)
+			)
+		)
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
@@ -188,6 +224,84 @@
 			(font
 				(size 0.98 0.98)
 				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "FB"
+		(at -2.7 0.7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "66972f29-1a28-4e94-8219-88f1ca36a275")
+		(effects
+			(font
+				(size 0.2 0.2)
+				(thickness 0.05)
+				(bold yes)
+			)
+		)
+	)
+	(fp_text user "VINA"
+		(at -2.7 -1.9 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "819a0df3-0ada-4f75-850f-d3b559e76635")
+		(effects
+			(font
+				(size 0.2 0.2)
+				(thickness 0.05)
+				(bold yes)
+			)
+		)
+	)
+	(fp_text user "VINSW"
+		(at 2.7 0.7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "952b5c73-70b4-4af0-be6f-3e0ba08ad271")
+		(effects
+			(font
+				(size 0.2 0.2)
+				(thickness 0.05)
+				(bold yes)
+			)
+		)
+	)
+	(fp_text user "PGND"
+		(at 2.7 -1.9 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "9f613440-3504-4d00-9f15-b20b88b7cc21")
+		(effects
+			(font
+				(size 0.2 0.2)
+				(thickness 0.05)
+				(bold yes)
+			)
+		)
+	)
+	(fp_text user "DIM"
+		(at -2.7 -0.6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "d7801286-0e55-4c2b-b8b7-0992ebf410bc")
+		(effects
+			(font
+				(size 0.2 0.2)
+				(thickness 0.05)
+				(bold yes)
+			)
+		)
+	)
+	(fp_text user "GND"
+		(at -2.7 1.9 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "da32fc62-5e4f-4eae-8771-e6c392399fd4")
+		(effects
+			(font
+				(size 0.2 0.2)
+				(thickness 0.05)
+				(bold yes)
 			)
 		)
 	)
@@ -283,6 +397,51 @@
 		(roundrect_rratio 0.05)
 		(zone_connect 2)
 		(uuid "39903925-2e5c-42c2-a3f3-f93dd4510e22")
+	)
+	(pad "41" thru_hole circle
+		(at -0.75 -1.25)
+		(size 0.6 0.6)
+		(drill 0.3)
+		(property pad_prop_heatsink)
+		(layers "*.Cu" "F.Mask")
+		(remove_unused_layers no)
+		(uuid "3687ea96-f413-431f-b0a9-c37f195756fb")
+	)
+	(pad "41" thru_hole circle
+		(at -0.75 1.25)
+		(size 0.6 0.6)
+		(drill 0.3)
+		(property pad_prop_heatsink)
+		(layers "*.Cu" "F.Mask")
+		(remove_unused_layers no)
+		(uuid "a5cc9da9-c1a7-46c7-9a3e-6ae6917bd97f")
+	)
+	(pad "41" thru_hole circle
+		(at 0 0)
+		(size 0.6 0.6)
+		(drill 0.3)
+		(property pad_prop_heatsink)
+		(layers "*.Cu" "F.Mask")
+		(remove_unused_layers no)
+		(uuid "b62d0d82-248e-4946-ae9c-e9b4d3850560")
+	)
+	(pad "41" thru_hole circle
+		(at 0.75 -1.25)
+		(size 0.6 0.6)
+		(drill 0.3)
+		(property pad_prop_heatsink)
+		(layers "*.Cu" "F.Mask")
+		(remove_unused_layers no)
+		(uuid "fdc3ab07-1265-4d77-b5e6-581a18382a9c")
+	)
+	(pad "41" thru_hole circle
+		(at 0.75 1.25)
+		(size 0.6 0.6)
+		(drill 0.3)
+		(property pad_prop_heatsink)
+		(layers "*.Cu" "F.Mask")
+		(remove_unused_layers no)
+		(uuid "66feb6f9-8d3e-4610-a145-bf97da7821b9")
 	)
 	(model "${KIPRJMOD}/LiveAstraLibrary/LiveAstra.3dshapes/LED2001PHR.stp"
 		(offset
