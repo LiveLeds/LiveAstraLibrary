@@ -68,8 +68,8 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -2 -2.7)
-		(end 2 -2.7)
+		(start -0.25 -2.7)
+		(end 0.25 -2.7)
 		(stroke
 			(width 0.16)
 			(type default)
@@ -77,19 +77,9 @@
 		(layer "F.SilkS")
 		(uuid "3c0716e6-e908-45cb-b34b-3609986bcb4c")
 	)
-	(fp_line
-		(start -2 2.7)
-		(end 2 2.7)
-		(stroke
-			(width 0.16)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "596dcf37-59a5-41a0-95c9-28b3ffa38672")
-	)
 	(fp_poly
 		(pts
-			(xy -1.5 -3.5) (xy -2 -3) (xy -2.5 -3.5)
+			(xy -5.6 -2.4) (xy -5.1 -1.9) (xy -5.6 -1.4)
 		)
 		(stroke
 			(width 0.16)
@@ -390,7 +380,7 @@
 		(uuid "cae0f851-0e5d-4e30-87b1-b334978a2d34")
 	)
 	(pad "9" thru_hole circle
-		(at -0.75 -1.25)
+		(at -0.9 -1.35)
 		(size 0.6 0.6)
 		(drill 0.3)
 		(property pad_prop_heatsink)
@@ -399,7 +389,7 @@
 		(uuid "3687ea96-f413-431f-b0a9-c37f195756fb")
 	)
 	(pad "9" thru_hole circle
-		(at -0.75 1.25)
+		(at -0.9 1.35)
 		(size 0.6 0.6)
 		(drill 0.3)
 		(property pad_prop_heatsink)
@@ -426,7 +416,7 @@
 		(uuid "39903925-2e5c-42c2-a3f3-f93dd4510e22")
 	)
 	(pad "9" thru_hole circle
-		(at 0.75 -1.25)
+		(at 0.9 -1.35)
 		(size 0.6 0.6)
 		(drill 0.3)
 		(property pad_prop_heatsink)
@@ -435,7 +425,7 @@
 		(uuid "fdc3ab07-1265-4d77-b5e6-581a18382a9c")
 	)
 	(pad "9" thru_hole circle
-		(at 0.75 1.25)
+		(at 0.9 1.35)
 		(size 0.6 0.6)
 		(drill 0.3)
 		(property pad_prop_heatsink)
