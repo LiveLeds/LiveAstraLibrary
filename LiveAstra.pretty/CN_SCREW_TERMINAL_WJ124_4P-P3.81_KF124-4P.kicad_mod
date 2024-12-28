@@ -642,7 +642,7 @@
 		(remove_unused_layers no)
 		(uuid "af73c163-1f9b-494f-b78d-cc8a4f081ad8")
 	)
-	(model "/Users/BB88KU/Sketchbook/LiveLeds/PCB/AstraControlPower/AstraControlPowerPCB/LiveAstraLibrary/LiveAstra.3dshapes/CONN-TH_WJ3.81-LI-4P-124.step"
+	(model "${KIPRJMOD}/LiveAstraLibrary/LiveAstra.3dshapes/CONN-TH_WJ3.81-LI-4P-124.step"
 		(opacity 0.9700)
 		(offset
 			(xyz -5.76 0 0)
