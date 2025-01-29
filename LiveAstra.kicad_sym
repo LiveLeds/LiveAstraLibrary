@@ -8709,7 +8709,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "CN"
-			(at 0 21.59 0)
+			(at 0 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8717,13 +8717,13 @@
 				)
 			)
 		)
-		(property "Value" "JST_ZH_6PIN_1A_250V"
-			(at 0 -22.86 0)
+		(property "Value" "6 PIN JST ZH"
+			(at 0 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(bold yes)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "LiveAstra:JST_ZH_B6B-ZR_1x06_P1.50mm_Vertical"
