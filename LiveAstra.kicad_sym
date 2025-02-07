@@ -9280,8 +9280,8 @@
 		)
 		(symbol "LED_RGBA_3A_LERTDCYS2WN_0_1"
 			(rectangle
-				(start -6.35 17.78)
-				(end 6.35 -20.32)
+				(start -7.62 17.78)
+				(end 7.62 -20.32)
 				(stroke
 					(width 0)
 					(type default)
@@ -9292,7 +9292,7 @@
 			)
 			(polyline
 				(pts
-					(xy -6.35 -12.7) (xy 6.35 -12.7)
+					(xy -7.62 -12.7) (xy 7.62 -12.7)
 				)
 				(stroke
 					(width 0)
@@ -9304,7 +9304,7 @@
 			)
 			(polyline
 				(pts
-					(xy -6.35 -5.08) (xy 6.35 -5.08)
+					(xy -7.62 -5.08) (xy 7.62 -5.08)
 				)
 				(stroke
 					(width 0)
@@ -9316,7 +9316,7 @@
 			)
 			(polyline
 				(pts
-					(xy -6.35 2.54) (xy 6.35 2.54)
+					(xy -7.62 2.54) (xy 7.62 2.54)
 				)
 				(stroke
 					(width 0)
@@ -9328,7 +9328,7 @@
 			)
 			(polyline
 				(pts
-					(xy -6.35 10.16) (xy 6.35 10.16)
+					(xy -7.62 10.16) (xy 7.62 10.16)
 				)
 				(stroke
 					(width 0)
@@ -9670,7 +9670,7 @@
 			)
 			(pin passive line
 				(at 10.16 10.16 180)
-				(length 3.81)
+				(length 2.54)
 				(name ""
 					(effects
 						(font
@@ -9688,7 +9688,7 @@
 			)
 			(pin passive line
 				(at -10.16 10.16 0)
-				(length 3.81)
+				(length 2.54)
 				(name ""
 					(effects
 						(font
@@ -9706,7 +9706,7 @@
 			)
 			(pin passive line
 				(at 10.16 2.54 180)
-				(length 3.81)
+				(length 2.54)
 				(name ""
 					(effects
 						(font
@@ -9724,7 +9724,7 @@
 			)
 			(pin passive line
 				(at -10.16 2.54 0)
-				(length 3.81)
+				(length 2.54)
 				(name ""
 					(effects
 						(font
@@ -9742,7 +9742,7 @@
 			)
 			(pin passive line
 				(at 10.16 -5.08 180)
-				(length 3.81)
+				(length 2.54)
 				(name ""
 					(effects
 						(font
@@ -9760,7 +9760,7 @@
 			)
 			(pin passive line
 				(at -10.16 -5.08 0)
-				(length 3.81)
+				(length 2.54)
 				(name ""
 					(effects
 						(font
@@ -9778,7 +9778,7 @@
 			)
 			(pin passive line
 				(at 10.16 -12.7 180)
-				(length 3.81)
+				(length 2.54)
 				(name ""
 					(effects
 						(font
@@ -9796,7 +9796,7 @@
 			)
 			(pin passive line
 				(at -10.16 -12.7 0)
-				(length 3.81)
+				(length 2.54)
 				(name ""
 					(effects
 						(font
@@ -9813,8 +9813,8 @@
 				)
 			)
 			(pin passive line
-				(at 0 -24.13 90)
-				(length 3.81)
+				(at 0 -22.86 90)
+				(length 2.54)
 				(name "EP"
 					(effects
 						(font
