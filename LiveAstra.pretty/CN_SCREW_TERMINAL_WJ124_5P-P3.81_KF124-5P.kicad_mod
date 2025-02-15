@@ -552,10 +552,10 @@
 			(type default)
 		)
 		(layer "F.CrtYd")
-		(uuid "fb628507-bcba-4966-a959-c3443cb60838")
+		(uuid "7bfc583b-0e71-4667-901e-4558fda46540")
 	)
 	(fp_line
-		(start -10.5 4.75)
+		(start -10.5 4.25)
 		(end -10.5 -4.5)
 		(stroke
 			(width 0.05)
@@ -566,17 +566,17 @@
 	)
 	(fp_line
 		(start 10.5 -4.5)
-		(end 10.5 4.75)
+		(end 10.5 4.25)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(layer "F.CrtYd")
-		(uuid "eba60fbe-38e7-4f03-8493-d1c7252a10ca")
+		(uuid "d4e98c25-c80c-4330-b13b-9405c6829c30")
 	)
 	(fp_line
-		(start 10.5 4.75)
-		(end -10.5 4.75)
+		(start 10.5 4.25)
+		(end -10.5 4.25)
 		(stroke
 			(width 0.05)
 			(type default)
