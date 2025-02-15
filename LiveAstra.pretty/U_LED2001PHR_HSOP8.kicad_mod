@@ -79,7 +79,7 @@
 	)
 	(fp_poly
 		(pts
-			(xy -2.5 6) (xy -2 5.5) (xy -1.5 6)
+			(xy -3.5 4.5) (xy -3 4) (xy -2.5 4.5)
 		)
 		(stroke
 			(width 0.16)
@@ -515,6 +515,7 @@
 		(property pad_prop_heatsink)
 		(layers "*.Cu")
 		(remove_unused_layers no)
+		(zone_connect 2)
 		(uuid "2447a509-c0db-40e0-a88b-78cf34c45d60")
 	)
 	(pad "9" thru_hole circle
@@ -524,6 +525,7 @@
 		(property pad_prop_heatsink)
 		(layers "*.Cu")
 		(remove_unused_layers no)
+		(zone_connect 2)
 		(uuid "7eae004c-d938-47ad-8b11-a50895a5686b")
 	)
 	(pad "9" thru_hole circle
@@ -533,6 +535,7 @@
 		(property pad_prop_heatsink)
 		(layers "*.Cu")
 		(remove_unused_layers no)
+		(zone_connect 2)
 		(uuid "6a6efb80-1f8f-4ed7-87f8-d227164f62eb")
 	)
 	(pad "9" thru_hole circle
@@ -542,6 +545,7 @@
 		(property pad_prop_heatsink)
 		(layers "*.Cu")
 		(remove_unused_layers no)
+		(zone_connect 2)
 		(uuid "5e18ba86-3129-4f91-b61a-679441cb52f5")
 	)
 	(pad "9" smd roundrect
@@ -569,6 +573,7 @@
 		(property pad_prop_heatsink)
 		(layers "*.Cu")
 		(remove_unused_layers no)
+		(zone_connect 2)
 		(uuid "d49ab4d6-b157-4dca-954b-53f34de2ef7c")
 	)
 	(pad "9" thru_hole circle
@@ -578,6 +583,7 @@
 		(property pad_prop_heatsink)
 		(layers "*.Cu")
 		(remove_unused_layers no)
+		(zone_connect 2)
 		(uuid "149a5882-4fdb-4b6e-8feb-431dea6cc7c3")
 	)
 	(pad "9" thru_hole circle
@@ -587,6 +593,7 @@
 		(property pad_prop_heatsink)
 		(layers "*.Cu")
 		(remove_unused_layers no)
+		(zone_connect 2)
 		(uuid "38ddce2c-7152-4c23-a8f6-89d7777b1c86")
 	)
 	(pad "9" thru_hole circle
@@ -596,6 +603,7 @@
 		(property pad_prop_heatsink)
 		(layers "*.Cu")
 		(remove_unused_layers no)
+		(zone_connect 2)
 		(uuid "563b54da-f238-4fab-bf40-88df83fc9754")
 	)
 	(model "${KIPRJMOD}/LiveAstraLibrary/LiveAstra.3dshapes/LED2001PHR.stp"
