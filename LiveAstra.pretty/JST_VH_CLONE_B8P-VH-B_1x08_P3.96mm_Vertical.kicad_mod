@@ -362,10 +362,10 @@
 		(remove_unused_layers no)
 		(uuid "f64a2f99-8a62-4e4e-9283-ba19954ab950")
 	)
-	(model "/Users/BB88KU/Sketchbook/LiveLeds/PCB/AstraControl/AstraControlPCB/LiveAstraLibrary/LiveAstra.3dshapes/CONN-TH_A3963WV-8P.wrl"
+	(model "${KIPRJMOD}/LiveAstraLibrary/LiveAstra.3dshapes/B8P-VH.stp"
 		(opacity 0.5300)
 		(offset
-			(xyz -0.04 -6.35 4.1)
+			(xyz 0 0 0)
 		)
 		(scale
 			(xyz 1 1 1)
