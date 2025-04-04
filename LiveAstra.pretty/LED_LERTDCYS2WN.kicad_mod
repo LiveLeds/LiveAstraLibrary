@@ -165,7 +165,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(layer "Eco1.User")
+		(layer "Eco2.User")
 		(uuid "5987aa37-f4c8-423c-af47-7d304f371de0")
 	)
 	(fp_rect
